@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'yekan';
+    src: url('../fonts/yekan.eot');
+    src: url('../fonts/yekan.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/yekan.woff2') format('woff'),
+         url('../fonts/yekan.woff') format('woff'),
+         url('../fonts/yekan.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+body{
+    font-family: yekan;
+
+}
+.rtl{  direction: rtl;}
+.owl-carousel .item {
+  
+    text-align: center;
+    padding: 1em 0 2em 0;
+    margin: 0 10px;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    
+}
+textarea{resize: none;}
+
+
+/* css for login end */
+.eye{border-radius: 5px 0 0 5px !important; font-size: 17.5px;padding: 10.7px 15px;border: 1px slolid black;}
+/* css for login end */
+/* css for user start */
+button{cursor: pointer;}
+/* css for user end */
+/* css for register start */
+.bg-lightcoral{background: lightcoral;}
+/* css for register start */
+.p4{display: none;}
+.title-about{
+    height: 350px;
+    background: #f7806c;
+    padding: 50px 150px 0 0;
+}
+.title-contact{
+    height: 350px;
+    background: #efa146;
+    padding: 50px 150px 0 0;
+}
+.title-help{
+    height: 350px;
+    background: #9446ef!important;
+    padding: 50px 150px 0 0;
+}
+.page-title{
+    font-weight: 400;
+    font-size: 20px;
+    color: #f1f1f1;
+    padding:30px 0 10px 100px;
+ 
+}
+.title-cooperation{
+    height: 350px;
+    background: #1621a5;
+    padding: 50px 150px 0 0;
+
+}
+.title-user{
+    height: 350px;
+    background: #CE6375;
+    padding: 50px 150px 0 0;
+
+}
+@media (max-width: 970px)  {
+    #btnhide,#fidiboax{display: none;}
+    #app{width: 100%;}
+}
